@@ -1,0 +1,23 @@
+1)Abstraction: Sometimes omitted from pillars of OOP.
+				We are hiding the implementation details.
+				_what it does, not how it does it_
+				Exposing only functionality.
+				Abstract class methods have no implementation.
+2)Polymorphism: the ability for the programming language to be able to tell the difference
+				between objects and methods of the same names with different variable/class
+				types.
+				Overriding - same name, same parameters, different behavior.
+				Overloading - same name, different parameters, different behavior.
+				Many forms.
+				Multiple "is-a" relationship.
+				Object>Animal>Cat
+				Animal Is-a aanimal and also an object.
+				Cat is-a cat, an animal and an object.
+				Covariance.
+3)Encapsulation: When you wrap and protect data fields, preventing manipulation
+				outside of the class.
+				Usually require getter and setter methods to change these values.
+				Conceal internal state of object. Preserving integrity.
+4)Inheritance: Child objects obtain states and behaviors from parent objects.
+				Multiple inheritance? NO!, (although interfaces allow it)
+				**Diamond problem**

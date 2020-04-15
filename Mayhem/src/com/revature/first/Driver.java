@@ -16,6 +16,6 @@ public class Driver {
 		h.setName("Andres");
 		h.setAge(36);
 		h.setWeight(155);
-		System.out.println(h.getName());
+		System.out.println(h.getName()+" "+h.getAge());
 	}
 }
